@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.loginForm {
+    height: 100vh !important;
+    background-image: linear-gradient(335deg, #2196f3 50%, white 50%);
+}
+
+.loginForm .loginInformation {
+    height: 100vh;
+}
+
+.loginForm .loginInformation form h2 i {
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+
+.loginForm .loginInformation form {
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1), 0 -15px 35px rgba(0, 0, 0, 0.1), 0 15px 35px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.loginForm .loginInformation form:hover {
+    transform: scale(1.1);
+}
+
+.loginForm .loginInformation h2 {
+    margin-bottom: 40px;
+    color: #2196f3;
+    font-size: 1.3rem;
+}
+
+.loginForm .loginInformation .loginInputbox {
+    position: relative;
+    margin: 15px 0;
+}
+
+.loginForm .loginInformation .loginInputbox input {
+    color: #000;
+    padding: 5px 0;
+    margin: 10px 0;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    outline: none;
+    resize: none;
+}
+
+.loginForm .loginInformation .loginInputbox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #000;
+}
+
+.loginForm .loginInformation .loginInputbox input:focus~span,
+.loginForm .loginInformation .loginInputbox input:valid~span {
+    font-size: 1.2rem;
+    color: #2196f3;
+    transform: translateY(-20px);
+}
+
+.loginForm .loginInformation .loginInputbox input[type="submit"] {
+    background: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.loginForm .loginInformation .loginInputbox input[type="submit"]:hover {
+    background-color: #1571b9;
+}
+
+@media(max-width:400px) {
+    .loginForm .loginInformation form {
+        width: 300px;
+    }
+}

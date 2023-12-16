@@ -1,0 +1,403 @@
+@font-face{
+    font-family: g_font !important;
+    src: url('assets/google_font/JosefinSans-Regular.ttf');
+}
+html {
+    scroll-behavior: smooth;
+}
+*{
+    font-family: g_font;
+}
+/* ---------------------loader start css ----------------------------------- */
+#loader {
+    position: fixed !important;
+    width: 100% !important;
+    height: 100vh !important;
+    background: #fff url('./assets/image/loader_icon/Capsule-Loading.svg') no-repeat center !important;
+    z-index: 99999 !important;
+
+}
+
+/* ---------------------loader end csss------------------------------------- */
+/*---------------------- scrollbutton css  start ---------------------------*/
+#myscrollbarBotton {
+    display: none;
+    position: fixed !important;
+    font-size: 1.5rem !important;
+    bottom: 20px !important;
+    right: 30px !important;
+    z-index: 99 !important;  
+    border: none !important;
+    outline: none !important;
+    background-color: #2196f3 !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    padding: 20px !important;
+    border-radius: 50px !important;
+    opacity: 0.8 !important;
+}
+
+#myscrollbarBotton:hover {
+    opacity: 1 !important;
+}
+
+/*----------------------------- scrollbutton css end --------------------------*/
+
+/*---------------------------- scrollbar start ------------------------------*/
+::-webkit-scrollbar {
+    width: 10px !important;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#737578, #737578) !important;
+    border-radius: 0 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#3e4145, #3e4145) !important;
+}
+
+/*--------------------------------------- scrollbar end ------------------------*/
+/*-------------------- image slider start css --------------------*/
+.first-image-slider img {
+    height: 100vh !important;
+    width: 100% !important;
+}
+
+/* btn css start */
+.main-header-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-header-btn div h1 {
+    text-transform: capitalize !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+.main-header-btn div h1 span {
+    animation: blink_nima 2s infinite;
+    text-transform: capitalize !important;
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    animation-timing-function: linear !important;
+}
+@keyframes blink_nima{
+    0%{
+        color: #2196f3;
+        /* background:yellow; */
+        
+    }
+    100%{
+        color: #f3208a;
+        /* background:red; */
+    }
+}
+.main-header-btn div p {
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+}
+
+.main-header-btn div p span {
+    color: #2196f3 !important;
+    text-transform: capitalize !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+}
+
+.main-header-btn div {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.main-header-btn div .btn-login {
+    background-color: transparent;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
+    border: 1px solid #fff !important;
+    padding: 12px 10px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    z-index: 1 !important;
+    transition: 0.2s !important;
+    margin: 10px !important;
+    border-radius: 10px;
+    transition-timing-function: linear !important;
+
+}
+.main-header-btn div .btn-login:hover{
+ color: #2196f3 !important;
+ border: 1px solid #2196f3 !important;
+}
+.main-header-btn div .btn-registration{
+    background-color: transparent;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    color: #2196f3 !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
+    border: 1px solid #2196f3 !important;
+    padding: 12px 10px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    z-index: 1 !important;
+    transition: 0.2s !important;
+    margin: 10px !important;
+    border-radius: 10px;
+    transition-timing-function: linear !important;
+
+}
+.main-header-btn div .btn-registration:hover{
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+@media(max-width:786px){
+    .main-header-btn div{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/* btn css end */
+/* -------------------image slide end css ----------------------- */
+
+/* -------------------our top product start css--------------------- */
+.sale-section-product {
+    background-color: #efefef !important;
+}
+
+.sale-section {
+    width: 100% !important;
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+}
+
+.sale-section .sale-section-card {
+    position: relative !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    padding-left: 12px !important;
+}
+
+.sale-section .sale-section-card .product-face {
+    /* width: 300px !important; */
+    height: 200px !important;
+    transition: 0.5s !important;
+}
+
+.sale-section .sale-section-card .product-face.product-face1 {
+    position: relative !important;
+    background: #212529 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    z-index: 1 !important;
+    transform: translateY(100px) !important;
+}
+
+.sale-section .sale-section-card:hover .product-face.product-face1 {
+    background: #2196f3 !important;
+    transform: translateY(0) !important;
+}
+
+.sale-section .sale-section-card .product-face.product-face1 .content {
+    opacity: 0.5 !important;
+    transition: 0.5s !important;
+}
+
+.sale-section .sale-section-card:hover .product-face.product-face1 .content {
+    opacity: 1 !important;
+}
+
+.sale-section .sale-section-card .product-face.product-face1 .content img {
+    max-width: 100px !important;
+}
+
+.sale-section .sale-section-card .product-face.product-face1 .content h3 {
+    /* margin: 10px 0 0; */
+    padding: 0 !important;
+    color: #fff !important;
+    text-align: center !important;
+    font-size: 1.5rem !important;
+}
+
+.sale-section .sale-section-card .product-face.product-face2 {
+    position: relative !important;
+    background: #fff !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8) !important;
+    transform: translateY(-100px) !important;
+}
+
+.sale-section .sale-section-card:hover .product-face.product-face2 {
+    transform: translateY(0) !important;
+}
+
+.sale-section .sale-section-card .product-face.product-face2 .content p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.sale-section .sale-section-card .product-face.product-face2 .content a {
+    border-radius: 10px !important;
+    margin: 15px 0 0 !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    font-weight: 900 !important;
+    color: #333 !important;
+    padding: 5px !important;
+    border: 1px solid #333 !important;
+    transition: 0.5s !important;
+}
+
+.sale-section .sale-section-card .product-face.product-face2 .content a:hover {
+    border:1px solid #2196f3 !important; 
+    color: #2196f3 !important;
+}
+
+@media(max-width: 768px) {
+    .sale-section-product {
+        height: auto !important;
+    }
+
+    .sale-section .sale-section-card .product-face {
+        width: auto !important;
+    }
+}
+
+/* -------------------our top product end css----------------------- */
+
+/*--------------------- second image slider start css--------------------- */
+.optional-image-slider {
+    background-color: #efefef !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#optional-slider {
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.optional-image-slider .carousel-caption h1 {
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+}
+
+.optional-image-slider .carousel-caption p {
+    font-size: 1rem !important;
+}
+
+.second-image-slider img {
+    height: 70vh !important;
+    width: 100% !important;
+}
+
+.charger-adapter-pen-btn {
+    border-radius: 10px !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    font-weight: 900 !important;
+    color: #fff !important;
+    padding: 5px 10px !important;
+    border: 1px solid #fff !important;
+    text-transform: capitalize !important;
+    transition: 0.5s !important;
+    margin-bottom: 20px !important;
+}
+
+.charger-adapter-pen-btn:hover {
+    text-decoration: none !important;
+    border: 1px solid #2196f3 !important;
+    color: #2196f3 !important;
+}
+
+@media(max-width: 768px) {
+    .second-image-slider img {
+        height: 60vh !important;
+    }
+}
+
+/* --------------------second image slider end css------------------------- */
+
+/* --------------------owner card start csss------------------------------- */
+
+.owner-information {
+    background-color: #efefef !important;
+}
+
+.owner-information .container .row {
+    position: relative !important;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    height: auto !important;
+    width: 100% !important;
+    padding: 50px 5px !important;
+}
+
+.owner-information .box {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8) !important;
+    border-radius: 10px !important;
+    background-image: linear-gradient(105.3deg, rgba(30, 39, 107, 1) 21.8%, rgba(77, 118, 221, 1) 100.2%);
+    color: #fff !important;
+    padding: 20px !important;
+}
+
+.owner-information .box a img {
+    width: 100px !important;
+    border-radius: 100% !important;
+    height: 100px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    top: calc(-90px/2) !important;
+    left: calc(-60px/2) !important;
+    transition: 0.5s !important;
+
+}
+
+.owner-information .box a img:hover {
+    transform: scale(1.1) !important;
+}
+
+.owner-socialIcon {
+    border-top: 1px solid #fff;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+}
+
+.owner-socialIcon a i {
+    padding-top: 10px !important;
+    font-size: 1.2rem !important;
+}
+
+.owner-socialIcon a i:hover {
+    transform: scale(1.1) !important;
+}
+/* ---------------------owner card  end css--------------------------------- */

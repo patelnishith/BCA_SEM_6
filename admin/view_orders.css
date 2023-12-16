@@ -1,0 +1,30 @@
+
+.flex-table{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.w-10 {
+    width: 10% !important;
+}
+
+.w-15 {
+    width: 15% !important;
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+.delete-icon {
+    margin: 5px !important;
+    padding: 5px !important;
+    color: red;
+    opacity: 0.8 !important;
+    /* background-color: green; */
+}
+
+.delete-icon:hover {
+    color: red;
+    opacity: 1 !important;
+}

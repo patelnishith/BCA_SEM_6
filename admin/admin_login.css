@@ -1,0 +1,44 @@
+.title_here h2 {
+    color: #2196f3 !important;
+    font-size: 1.5rem !important;
+    font-weight: normal !important;
+    padding: 10px 0 !important;
+}
+.title_here h2 i{
+    padding-right: 10px !important;
+     /* background-color: red !important; */
+}
+.center-div {
+    height: 100vh !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-image: linear-gradient(180deg, #2196f3 50%, #fff 50%) !important;
+}
+
+form {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5) !important;
+    transition: 0.4s !important;
+    transition-timing-function: linear !important;
+}
+form:hover{
+    transform: scale(1.1) !important;
+}
+
+form input {
+    border-radius: 0 !important;
+    font-size: 1rem !important;
+}
+::placeholder {
+    text-transform: capitalize !important;
+    font-size: 0.8rem !important;
+}
+
+form button {
+    border-radius: 0 !important;
+    padding: 10px 0 !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    text-transform: capitalize !important;
+}

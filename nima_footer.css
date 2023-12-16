@@ -1,0 +1,97 @@
+body {
+  height: 100vh !important;
+}
+
+footer {
+  background-color: #282c30 !important;
+  margin-top: auto !important;
+}
+
+.socialMedia {
+  padding: 10px 0 !important;
+  height: auto !important;
+  background-color: #0f69b3 !important;
+}
+
+.socialIcon {
+  padding-right: 20px !important;
+}
+
+.socialIcon a {
+  outline: none !important;
+  margin-left: 1rem !important;
+}
+
+.socialConnect {
+  padding-left: 20px !important;
+}
+
+.socialIcon i:hover {
+  transform: scale(1.1) !important;
+}
+
+.footerInfo {
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+.footerInfo h1 {
+  width: 150px !important;
+  border-bottom: 3px solid #2196f3;
+  padding-top: 1rem !important;
+  padding-bottom: 10px !important;
+  font-size: 1.1rem !important;
+  text-transform: uppercase !important;
+}
+
+.lastpartFooter hr {
+  width: 180px !important;
+  height: 2px !important;
+  background-color: #757575 !important;
+}
+
+.companyName {
+  font-size: 1rem !important;
+}
+
+.companyAbout {
+  font-size: 0.9rem !important;
+}
+
+.lastpartFooterInfo {
+
+  padding-top: 10px !important;
+}
+
+.lastpartFooterInfo p {
+  color: #a0acb9 !important;
+  font-size: 1rem !important;
+}
+
+footer li {
+  transition: 0.5s !important;
+}
+
+footer li:hover i {
+  transform: scale(1.1) !important;
+  color: #2196f3 !important;
+}
+
+@media(max-width: 800px) {
+  .companyName {
+    text-align: center !important;
+  }
+
+  .companyAbout {
+    text-align: center !important;
+  }
+
+  .footerInfo ul li {
+    text-align: center !important;
+  }
+
+  .footerInfo h1 {
+    text-align: center;
+    width: auto !important;
+  }
+}

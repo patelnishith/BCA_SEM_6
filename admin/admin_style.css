@@ -1,0 +1,151 @@
+* {
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+
+.scroll_table {
+    height: auto !important;
+    max-height: auto !important;
+    overflow: auto !important;
+    overflow-x: hidden !important;
+}
+.text-elipssis-mode{
+    display: block !important;
+    white-space: nowrap !important;
+    overflow:  hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* admin card css start */
+.admin-container {
+    background-color: #fff;
+
+}
+.admin-container a{
+    text-decoration: none !important;
+    color: #000;
+}
+.admin-container a:hover{
+    text-decoration: none !important;
+}
+
+ 
+.admin-data-con {
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.admin-container .font_de{
+    padding-top: 10px !important;
+    font-weight: bold !important;
+    font-size: 1.2rem !important;
+    padding-left: 13px !important;
+}
+.admin-card-icon{
+    color: #2196f3 !important;
+
+    opacity: 0.7;
+}
+.admin-card-data {
+    opacity: 0.9 !important;
+}
+
+.admin-data-con:hover .admin-card-icon {
+    opacity: 1 !important;
+}
+
+.admin-data-con:hover .admin-card-data {
+    opacity: 1 !important;
+}
+
+/* .admin-data-con:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+
+.admin-card-data p {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+
+/* admin card css end */
+/* admin  table css start */
+
+.admin-table {
+    width: 100% !important;
+    height: 93vh !important;
+    z-index: 99999 !important;
+}
+.admin-table .no_data{
+    
+    position: absolute !important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+}
+.admin-table .no_data img{
+    width: 300px;
+    height: 300px;
+}
+.admin-table .no_data p{
+text-align: center !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.admin-table div {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 60px !important;
+    padding: 0px 20px !important;
+}
+
+.admin-table table {
+    border: 1px solid #ced4da !important;
+    width: 100% !important;
+}
+
+.admin-table table thead {
+    text-transform: capitalize !important;
+    font-size: 1rem !important;
+    background-color: #fff !important;
+}
+
+.admin-table table thead tr {
+    display: flex !important ;
+    flex-direction: row !important;
+
+}
+
+.admin-table table thead tr th {
+    text-align: start !important;
+    font-size: 1rem !important;
+    font-weight: bold !important; 
+    padding: 10px 10px !important;
+}
+
+.admin-table table tbody tr {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.admin-table table tbody tr:nth-child(2n+1) {
+    background-color: #efefef !important;
+}
+
+.admin-table table tbody tr:nth-child(2n+2) {
+    background-color: #fff !important;
+}
+
+.admin-table table tbody tr td {
+    font-size: 0.9rem !important;
+    padding: 5px 10px !important;
+}
+
+
+/* admin table css end */

@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contact {
+    width: 100% !important;
+    min-height: 100vh !important;
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-image: linear-gradient(514deg, #2196f3 50%, white 50%) !important;
+}
+
+.contact .content {
+    max-width: 800px !important;
+    text-align: center !important;
+}
+
+.contact .content h3 {
+    font-size: 2.2rem !important;
+    font-weight: 500 !important;
+    color: #000 !important;
+}
+
+.contact .content p {
+    font-weight: 600 !important;
+    color: #000 !important;
+}
+
+.containerContact {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 30px !important;
+}
+
+.containerContact .contactInfo {
+    width: 50% !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.containerContact .contactInfo .box {
+    position: relative !important;
+    padding: 20px 0 !important;
+    display: flex !important;
+}
+
+.containerContact .contactInfo .box .icons {
+    min-width: 60px !important;
+    height: 60px !important;
+    background: #efefef !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 50% !important;
+    font-size: 1.2rem !important;
+}
+
+.containerContact .contactInfo .box .text {
+    display: flex !important;
+    margin-left: 20px !important;
+    flex-direction: column !important;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 200;
+}
+
+.containerContact .contactInfo .box .text h3 {
+    font-weight: 500;
+}
+
+.containerContact .contactInfo .box .text p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.contactFrom {
+    width: 35%;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1), 0 -15px 35px rgba(0, 0, 0, 0.1), 0 15px 35px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.contactFrom:hover {
+    transform: scale(1.1);
+}
+
+.contactFrom h2 {
+    font-size: 1.5rem;
+    color: #1571b9;
+    font-weight: 500;
+}
+
+.contactFrom .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactFrom .inputBox input,
+.contactFrom .inputBox textarea {
+    background-color: transparent;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1rem;
+    margin: 10px 0;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    border-bottom: 2px solid #000;
+    resize: none;
+}
+
+.contactFrom .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #000;
+}
+
+.contactFrom .inputBox input:focus~span,
+.contactFrom .inputBox input:valid~span,
+.contactFrom .inputBox textarea:focus~span,
+.contactFrom .inputBox textarea:valid~span {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1571b9;
+    transform: translateY(-20px);
+}
+
+.contactFrom .inputBox input[type="submit"] {
+    width: 100px;
+    background: #2196f3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.contactFrom .inputBox input[type="submit"]:hover {
+    background-color: #1571b9;
+}
+
+@media(max-width: 768px) {
+    .contact {
+        padding: 40px !important;
+        min-height: auto !important;
+    }
+
+    .containerContact {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .contactFrom {
+        width: 450px !important;
+    }
+
+    .contact .content h3 {
+        padding-top: 20px;
+    }
+
+    .contact .content p {
+        width: 400px;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .contact {
+        padding: 40px !important;
+        min-height: auto !important;
+    }
+
+    .contactFrom {
+        width: 300px !important;
+    }
+
+    .contact .content h3 {
+        padding-top: 40px;
+    }
+
+    .contact .content p {
+        width: 350px;
+    }
+}

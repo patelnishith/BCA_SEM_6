@@ -1,0 +1,50 @@
+#addlaptopbtn i {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 30px !important;
+    z-index: 99 !important;
+    border: none !important;
+    outline: none !important;
+    background-color: #2196f3 !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    padding: 20px !important;
+    border-radius: 100% !important;
+    opacity: 0.8 !important;
+}
+
+#addlaptopbtn i:hover {
+    opacity: 1 !important;
+}
+.w-10{
+    width: 10% !important;
+}
+.w-20{
+    width: 20% !important;
+}
+.delete-icon {
+    margin: 5px !important;
+    padding: 5px !important;
+    color: red;
+    opacity: 0.8 !important;
+    /* background-color: green; */
+}
+
+.delete-icon:hover {
+    color: red;
+    opacity: 1 !important;
+}
+
+.update-icon {
+    /* background-color: red; */
+    margin: 5px !important;
+    opacity: 0.8 !important;
+    padding: 5px !important;
+    color: green !important;
+}
+
+.update-icon:hover {
+
+    color: green;
+    opacity: 1 !important;
+}

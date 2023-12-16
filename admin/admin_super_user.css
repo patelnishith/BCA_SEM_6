@@ -1,0 +1,42 @@
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+body{
+    background-color: #efefef !important;
+}
+form{
+     height: auto !important;
+     margin-left: 20px !important;
+     margin-top: 65px !important;
+  padding:10px 40px !important;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+form h2{
+    padding: 10px 0px !important;
+    font-size: 1.7rem !important;
+    color: #2196f3 !important;
+}
+form label{
+    text-transform: capitalize;
+    font-size: 0.9rem !important;
+}
+form input,textarea{
+    border-radius: 0 !important;
+    font-size: 0.8rem !important;
+}
+::placeholder{
+    font-size: 0.8rem !important;
+}
+ form select{
+     border-radius: 0 !important;
+    border: 1px solid #ced4da; 
+    font-size: 0.8rem !important;
+}
+form button{
+    border-radius: 0 !important;
+    width: 100%;
+    font-size: 1.1rem !important;
+}

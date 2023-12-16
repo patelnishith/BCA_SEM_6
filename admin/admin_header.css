@@ -1,0 +1,31 @@
+.navbar {
+    position: absolute !important;
+    height: 7vh !important;
+    width: 100% !important;
+    padding: 5px 5px 5px 20px !important;
+    background-color: #2196f3 !important;
+}
+
+.navbar i {
+    font-size: 1rem !important;
+    color: #fff;
+    opacity: 0.8 !important;
+    transition: 0.5s !important;
+    padding: 10px 2px !important;
+}
+
+.navbar i:hover {
+    opacity: 1 !important;
+}
+
+.nav-item {
+    padding: 0 10px !important;
+}
+
+.nav-item img {
+    border-radius: 100% !important;
+}
+
+.admin-plus {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)) !important;
+}

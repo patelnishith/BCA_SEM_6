@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.registration-form{
+    background:linear-gradient(333deg, rgba(33,150,243,1)50%, rgba(255,255,255,1)50%) !important;
+}
+ form{      
+     margin-top: 50px !important;
+     padding:40px !important;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    /* height: 100% !important; */
+}
+form h2{
+    padding: 10px 0px !important;
+    font-size: 1.7rem !important;
+    color: #2196f3 !important;
+}
+form label{
+    text-transform: capitalize;
+    font-size: 0.9rem !important;
+}
+form input,textarea{
+    border-radius: 0 !important;
+    font-size: 0.8rem !important;
+}
+::placeholder{
+    font-size: 0.8rem !important;
+	text-transform: capitalize;
+}
+ form select{
+     border-radius: 0 !important;
+    border: 1px solid #ced4da; 
+    font-size: 0.8rem !important;
+}
+form button{
+    border-radius: 0 !important;
+    width: 100%;
+    font-size: 1.1rem !important;
+}
+@media(max-width:400px){
+    form h2{
+        font-size: 1rem !important;
+    }
+}

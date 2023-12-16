@@ -1,0 +1,113 @@
+body {
+    background-color: #efefef !important;
+}
+.share-icon i {
+    cursor: pointer !important;
+    transition: 0.5s !important;
+    transition-timing-function: linear !important;
+    font-size: 1.2rem !important;
+}
+
+.share-icon i:hover {
+    transform: scale(1.1) !important;
+}
+.model-name label{
+    color: #3a3a3a !important;
+    font-size: 1.3rem !important;
+    border-bottom: 1px solid grey !important;
+}
+.model-name h3 {
+    font-weight: normal !important;
+    font-size: 1.2rem !important;
+    color: #000  !important;
+}
+.product-info{
+    position: relative;
+}
+.images img{
+    width: 150px !important;
+    height: 300px !important;
+}
+.product-info label{
+    color: #3a3a3a !important;
+    font-size: 1.3rem !important;
+    border-bottom: 1px solid grey !important;
+}
+.product-info p{
+    font-size: 1rem !important;
+}
+.product-info .border-left-mode{
+    border-left: 1px solid #efefef !important;
+}
+.add-to-cart{
+    border-radius: 0 !important;
+}
+.buy-now{
+    border-radius: 0 !important;
+}
+
+@media(max-width:768px) {
+    .images img{
+        width: 125px !important;
+        height: 250px !important;
+    }
+    .share-icon i {
+        font-size: 0.8rem !important;
+
+    }
+    .model-name label{
+        font-size: 1.1rem !important;
+   
+    }
+    .model-name h3 {
+        font-size: 0.9rem !important;
+        font-weight: bold !important;
+    }
+    .product-info{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .product-info label{
+        font-size: 1.1rem !important;
+    }
+    .product-info p{
+        font-size: 0.9rem !important;
+    }
+    .product-info .border-left-mode{
+      border-left: none !important;
+    }
+    button{
+        font-size: 0.9rem !important;
+    }
+    
+
+}
+@media(max-width:500px) {
+    .images img{
+        width: 100px !important;
+        height: 200px !important;
+    }
+    .share-icon i {
+        font-size: 0.7rem !important;
+    }
+    .model-name label{
+        font-size: 0.9rem !important;
+    }
+    .model-name h3 {
+        font-weight: bold !important;
+        font-size: 0.7rem !important;
+    }
+    .product-info label{
+        font-size: 0.9rem !important;
+    }
+    .product-info p{
+        font-size: 0.8rem !important;
+    }
+    .product-info .border-left-mode{
+      border-left: none !important;
+    }
+    button{
+        font-size: 0.7rem !important;
+    }
+
+}
